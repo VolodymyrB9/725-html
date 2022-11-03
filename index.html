@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello HTML</title>
+    <title>Goose</title>
 </head>
 <body>
-    <h1>Hello HTML!</h1>
-    <img width="300" src="img/gus.svg" alt="gus">
+    <header>
+        <a href="#">Menu</a> |
+        <a href="#">Gallery</a> |
+        <a href="#">Contacts</a>
+    </header>
+    <main>
+        <div>
+            <h1>Goose</h1>
+            <h2>Let`s talk about goose</h2>
+
+            <img width="300" src="img/gus.svg" alt="gus">
+            <p>A goose is a bird of any of several waterfowl species in the family Anatidae.</p>
+        </div>
+    </main>
+    <div>
+        <p>How many <a href="#">geese</a> do you know?</p>
+        <ol>
+            <li>The Orinoco goose</li>
+            <li>The Egyptian goose</li>
+            <li>The South American sheldgeese</li>
+        </ol>
+    </div>
+    <div>
+        <p>Choose what you like more</p>
+        <form>
+           <label for="goose"><input id="goose" type="radio" name="kind" required>The Orinoco goose</label>
+            <label for="goose2"><input id="goose2" type="radio" name="kind" required>The Egyptian goose</label>
+            <label for="goose3"><input id="goose3" type="radio" name="kind" required>The South American sheldgeese</label>
+        </form>
+    </div>
+    <div>
+        <p>Leave your email for subscribe and get more informations about geese</p>
+        <input type="text" placeholder="Email"><button type="submit">Join</button>
+    </div>
 </body>
 </html>
